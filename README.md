@@ -1,46 +1,109 @@
-<h1 align="center">Welcome to node.js-cli 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/drewmargielaa/Node.js-ClI#readme" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/drewmargielaa/Node.js-ClI/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-  <a href="https://github.com/drewmargielaa/Node.js-ClI/blob/master/LICENSE" target="_blank">
-    <img alt="License: ISC" src="https://img.shields.io/github/license/drewmargielaa/node.js-cli" />
-  </a>
-</p>
+# Unit 09 Node.js and ES6+ Homework: Good README Generator
 
-### 🏠 [Homepage](https://github.com/drewmargielaa/Node.js-ClI#readme)
-
-## Install
+Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:
 
 ```sh
-npm install
+node index.js
+```
+// define three methods, each that either uses a callback or promises structure to handle asychronous requests
+
+The user will be prompted for their GitHub username, 
+which will be used to make a call to the GitHub API to retrieve their email and profile image. 
+They will then be prompted with questions about their project.
+
+// I need to use the 'FS' or File System module, to write a new file (readme.md) (using Markdown syntax)
+The README will be populated with the following:
+
+* At least one badge
+* Project title
+* Description
+* Table of Contents
+* Installation
+* Usage
+* License
+* Contributing
+* Tests
+* Questions
+  * User GitHub profile picture
+  * User GitHub email
+
+Following the [common templates for user stories](https://en.wikipedia.org/wiki/User_story#Common_templates), we can frame this challenge as follows:
+
+```
+AS A developer
+
+I WANT a README generator
+
+SO THAT I can easily put together a good README for a new project
 ```
 
-## Run tests
+Refer to the [Good README guide](../../01-HTML-Git-CSS/04-Supplemental/Good-README-Guide/README.md).
 
-```sh
-npm run test
+## Business Context
+
+When preparing a report for stakeholders, it is important to have up-to-date information about members of the development team. Rather than navigating to each team member's GitHub profile, a command-line application will allow for quick and easy generation of profiles in PDF format.
+
+## Minimum Requirements
+
+* Functional, deployed application.
+
+* GitHub repository with a unique name and a README describing project.
+
+* The generated README includes a bio image from the user's GitHub profile.
+
+* The generated README includes the user's email.
+
+* The generated README includes the following sections: 
+  * Title
+  * Description
+  * Table of Contents
+  * Installation
+  * Usage
+  * License
+  * Contributing
+  * Tests
+  * Questions
+
+* The generated README includes 1 badge that's specific to the repository.
+
 ```
+GIVEN the developer has a GitHub profile and a repository
 
-## Author
+WHEN prompted for the developer's GitHub username and repo specific information
 
-* Github: [@drewmargielaa](https://github.com/drewmargielaa)
+THEN a README for the repo is generated
+```
+- - -
 
-## 🤝 Contributing
+## Commit Early and Often
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/drewmargielaa/Node.js-ClI/issues). You can also take a look at the [contributing guide](https://github.com/drewmargielaa/Node.js-ClI/blob/master/CONTRIBUTING.md).
+One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
 
-## Show your support
+* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
 
-Give a ⭐️ if this project helped you!
+* Your commit history allows you to revert your code base in the event that you need to return to a previous state.
 
-## 📝 License
+Follow these guidelines for committing:
 
-This project is [ISC](https://github.com/drewmargielaa/Node.js-ClI/blob/master/LICENSE) licensed.
+* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+
+* Don't commit half-done work, for the sake of your collaborators (and your future self!).
+
+* Test your application before you commit to ensure functionality at every step in the development process.
+
+We would like you to have more than 200 commits by graduation, so commit early and often!
+
+## Submission on BCS
+
+You are required to submit the following:
+
+* An animated GIF demonstrating the app functionality
+
+* A generated PDF of your GitHub profile
+
+* The URL of the GitHub repository
+
+- - -
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
