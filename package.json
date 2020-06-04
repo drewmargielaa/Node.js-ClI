@@ -18,6 +18,7 @@
   "homepage": "https://github.com/drewmargielaa/Node.js-ClI#readme",
   "dependencies": {
     "fs": "0.0.1-security",
-    "inquirer": "^7.1.0"
+    "inquirer": "^7.1.0",
+    "readme-md-generator": "^1.0.0"
   }
 }
