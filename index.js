@@ -36,7 +36,17 @@ const questions = [
       {
         type: 'input',
         name: 'usage',
-        message: 'How do you use the project?'
+        message: 'How is the project used?'
+      },
+      {
+        type: 'input',
+        name: 'license',
+        message: 'Project License'
+      },
+      {
+        type: 'input',
+        name: 'contributing',
+        message: 'How to contribute'
       },
     ];
 

@@ -22,6 +22,12 @@ ${data.description}
 ${data.installation}
 ## Usage <a name="usage"></a>
 ${data.usage}
+## License <a name="license"></a>
+${data.license}
+## Contributing <a name="contributing"></a>
+${data.contributing}
+## Tests <a name="tests"></a>
+${data.tests}
         `;
       }
     catch(err) {

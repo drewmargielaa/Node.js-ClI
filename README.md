@@ -1,5 +1,5 @@
 
-# node js hw <a name="intro"></a>
+# node cli readme <a name="intro"></a>
 #### __Author:__ drewmargielaa
 #### __Email:__ Email Not Listed
 ![drewmargielaa Avatar](https://avatars3.githubusercontent.com/u/59854894?v=4)
@@ -12,15 +12,15 @@
 6) [Contributing](#contributing)
 7) [Tests](#tests)
 ## Description <a name="description"></a>
-cli readme
+creates a readme file from the terminal
 ## Installation <a name="installation"></a>
 git clone
 ## Usage <a name="usage"></a>
-your seeing it
+node js terminal
 ## License <a name="license"></a>
-undefined
+none
 ## Contributing <a name="contributing"></a>
-undefined
+git clone 
 ## Tests <a name="tests"></a>
 undefined
         
